@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: unzip yourfile.zip && rm yourfile.zip
+      - run: unzip lms.zip && rm lms.zip
       - run: git add . && git commit -m "Unzipped files" && git push
